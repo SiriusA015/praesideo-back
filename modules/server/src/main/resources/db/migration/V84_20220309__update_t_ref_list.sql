@@ -1,0 +1,1 @@
+update static.t_ref_list set list_value = 'kL' where list_key='impactm_measurement_unit' and list_value='KL';

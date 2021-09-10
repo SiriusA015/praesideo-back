@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  praesideo-backend:
+    image: $REGISTRY/$APP:$GIT_COMMIT_SHORT
+    env_file: ./env
+    ports:
+      - "8080:8080"
+    deploy:
+      mode: replicated
+      replicas: 1
+      update_config:
+        parallelism: 1
+        delay: 30s
+        order: start-first
+    volumes:
+      - /opt/temperature_alignment:/temperature_alignment/libs

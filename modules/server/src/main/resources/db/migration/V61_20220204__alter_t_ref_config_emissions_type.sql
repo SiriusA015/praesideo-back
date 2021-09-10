@@ -1,0 +1,11 @@
+ALTER TABLE static.t_ref_config_emissions_type RENAME etypeattr1_id TO etypeattr_id1;
+ALTER TABLE static.t_ref_config_emissions_type RENAME etypeattr2_id TO etypeattr_id2;
+ALTER TABLE static.t_ref_config_emissions_type RENAME etypeattr3_id TO etypeattr_id3;
+ALTER TABLE static.t_ref_config_emissions_type RENAME etypeattr4_id TO etypeattr_id4;
+ALTER TABLE static.t_ref_config_emissions_type RENAME etype_unit1_id TO etype_unit_id1;
+ALTER TABLE static.t_ref_config_emissions_type RENAME etype_unit2_id TO etype_unit_id2;
+
+ALTER TABLE static.t_ref_config_emissions_unit_factor RENAME etype_unit1_id TO etype_unit_id1;
+ALTER TABLE static.t_ref_config_emissions_unit_factor RENAME etype_unit2_id TO etype_unit_id2;
+ALTER TABLE static.t_ref_config_emissions_unit_factor RENAME etype_unit1_factor TO etype_unit_factor1;
+ALTER TABLE static.t_ref_config_emissions_unit_factor RENAME etype_unit2_factor TO etype_unit_factor2;

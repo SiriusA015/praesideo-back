@@ -1,0 +1,1 @@
+alter table public.t_users ADD COLUMN IF NOT EXISTS approval_date timestamp;

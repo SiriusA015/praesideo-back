@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS impact.t_data_versions;

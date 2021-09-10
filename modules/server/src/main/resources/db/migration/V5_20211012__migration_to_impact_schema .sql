@@ -1,0 +1,30 @@
+ALTER TABLE t_data_emissions_reduction_target
+    SET SCHEMA impact;
+ALTER TABLE t_data_ghg_inventory_method
+    SET SCHEMA impact;
+ALTER TABLE t_data_ghg_inventory_method_operational_boundary
+    SET SCHEMA impact;
+ALTER TABLE t_data_recent_year_emissions
+    SET SCHEMA impact;
+ALTER TABLE t_data_recent_year_emissions_carbon_credit_category
+    SET SCHEMA impact;
+ALTER TABLE t_data_recent_year_emissions_carbon_credit_category_type
+    SET SCHEMA impact;
+ALTER TABLE t_data_recent_year_emissions_source
+    SET SCHEMA impact;
+ALTER TABLE t_data_climate_mechanisms_influence_metric
+    SET SCHEMA impact;
+ALTER TABLE t_data_data_emissions_reduction_short_term
+    SET SCHEMA impact;
+ALTER TABLE t_data_data_emissions_reduction
+    SET SCHEMA impact;
+ALTER TABLE t_data_climate_mechanisms_influence
+    SET SCHEMA impact;
+ALTER TABLE t_data_files
+    SET SCHEMA impact;
+ALTER TABLE t_data_financials
+    SET SCHEMA impact;
+ALTER TABLE t_data_versions
+    SET SCHEMA impact;
+
+

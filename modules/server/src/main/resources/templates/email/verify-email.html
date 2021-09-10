@@ -1,0 +1,120 @@
+<!--suppress ALL -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="${language}">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hiraeth</title>
+    <style type="text/css">
+        @font-face {
+            font-family: "San Francisco Display Regular";
+            font-style: normal;
+            font-weight: 400;
+            src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+        }
+        @font-face {
+            font-family: "San Francisco Display Semibold";
+            font-style: normal;
+            font-weight: 600;
+            src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+        }
+        .table {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 0px solid #B4ACB0;
+            border-spacing: 0;
+            border-collapse: collapse;
+            color: #4a4a4a;
+            background-color: #f6f6f6;
+        }
+        .header {
+            height: 118px;
+            padding: 0;
+            background: #173042;
+        }
+        .content {
+            position: relative;
+            padding: 60px 30px;
+            background: url(https://praesideo-customers-supporting-documentation-prod.s3.eu-central-1.amazonaws.com/imgs/index.jpeg);
+            background-size: cover;
+            color: #C2B84D;
+            font-family: SF UI Display Semibold, sans-serif;
+        }
+        .wrapper {
+            padding: 30px;
+            /*background-color: rgba(23, 48, 66, 0.75);*/
+        }
+        .section {
+            margin-top: 100px;
+        }
+        .title {
+            font-size: 32px;
+        }
+        .text {
+            display: block;
+            margin: 0 0 15px 0;
+            color: #C2B84D;
+            text-decoration: none;
+            font-size: 22px;
+        }
+        @media screen and (max-width: 480px),
+        screen and (max-device-width: 480px) {
+            .header {
+                height: 80px;
+            }
+            .content {
+                padding: 20px;
+            }
+            .section {
+                margin-top: 50px;
+            }
+            .title {
+                font-size: 22px;
+            }
+            .text {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    </style>
+</head>
+<body bgcolor="#FFFFFF">
+<!-- HEADER -->
+<table class="table">
+    <tbody>
+    <tr>
+        <td class="header" align="center">
+            <a target="_blank" href="/" style="display: block;">
+                <img
+                        src="https://praesideo-customers-supporting-documentation-prod.s3.eu-central-1.amazonaws.com/imgs/light%2Blogo.png" />
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td class="content" align="center">
+            <div class="wrapper">
+                <h3 id="title" class="title">
+                    Thank you for your registration
+                </h3>
+                <div>
+                    <p class="text">
+                        Please confirm
+                        <a th:href="${link}">your account here</a>
+                    </p>
+                    <p class="text">
+                        We look forward to see you on the platform
+                    </p>
+                </div>
+                <div class="section">
+                    <a class="text" href='//www.praesideo.earth'>www.praesideo.earth</a>
+                    <p class="text">
+                        Increase your Impact by decreasing your impact
+                    </p>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><!-- /FOOTER -->
+</body>
+</html>

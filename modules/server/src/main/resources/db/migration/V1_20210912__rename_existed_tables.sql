@@ -1,0 +1,78 @@
+ALTER TABLE auditing_validation
+    RENAME TO t_ref_auditing_validation;
+ALTER TABLE emissions_inventory_method
+    RENAME TO t_ref_emissions_inventory_method;
+ALTER TABLE industry_sector
+    RENAME TO t_ref_industry_sector;
+ALTER TABLE year_representation
+    RENAME TO t_ref_years;
+ALTER TABLE carbon_credit_category
+    RENAME TO t_ref_carbon_credit_category;
+ALTER TABLE carbon_price_coverage
+    RENAME TO t_ref_carbon_price_coverage;
+ALTER TABLE carbon_price_coverage_type
+    RENAME TO t_ref_carbon_price_coverage_type;
+ALTER TABLE customer_type
+    RENAME TO t_ref_customer_type;
+ALTER TABLE base_currency
+    RENAME TO t_ref_base_currency;
+ALTER TABLE home_stock_exchange_zone
+    RENAME TO t_ref_stock_exchange_zone;
+ALTER TABLE purchase_credit_categories
+    RENAME TO t_ref_purchase_credit_categories;
+ALTER TABLE purchase_credit_category_type
+    RENAME TO t_ref_purchase_credit_category_type;
+ALTER TABLE home_stock_exchange
+    RENAME TO t_ref_home_stock_exchange;
+ALTER TABLE carbon_compensation_type
+    RENAME TO t_ref_carbon_compensation_type;
+ALTER TABLE product_selection
+    RENAME TO t_ref_product_selection;
+ALTER TABLE emissions_reduction_target_scope
+    RENAME TO t_ref_emissions_reduction_target_scope;
+ALTER TABLE operational_boundary_scope
+    RENAME TO t_ref_operational_boundary_scope;
+ALTER TABLE operational_boundary
+    RENAME TO t_ref_operational_boundary;
+ALTER TABLE organisational_boundary
+    RENAME TO t_ref_organisational_boundary;
+ALTER TABLE organisational_boundary_criteria
+    RENAME TO t_ref_organisational_boundary_criteria;
+ALTER TABLE dataset_emissions_reduction_target
+    RENAME TO t_data_emissions_reduction_target;
+/*ALTER TABLE dataset_baseline_year_emissions
+    RENAME TO t_data_baseline_year_emissions;*/
+ALTER TABLE dataset_ghg_inventory_method
+    RENAME TO t_data_ghg_inventory_method;
+ALTER TABLE dataset_ghg_inventory_method_operational_boundary
+    RENAME TO t_data_ghg_inventory_method_operational_boundary;
+ALTER TABLE dataset_recent_year_emissions
+    RENAME TO t_data_recent_year_emissions;
+ALTER TABLE dataset_recent_year_emissions_carbon_credit_category
+    RENAME TO t_data_recent_year_emissions_carbon_credit_category;
+ALTER TABLE dataset_recent_year_emissions_carbon_credit_category_type
+    RENAME TO t_data_recent_year_emissions_carbon_credit_category_type;
+ALTER TABLE dataset_recent_year_emissions_source
+    RENAME TO t_data_recent_year_emissions_source;
+ALTER TABLE climate_mechanisms_influence_metric
+    RENAME TO t_data_climate_mechanisms_influence_metric;
+ALTER TABLE dataset_emissions_reduction_short_term
+    RENAME TO t_data_data_emissions_reduction_short_term;
+ALTER TABLE dataset_emissions_reduction
+    RENAME TO t_data_data_emissions_reduction;
+ALTER TABLE climate_mechanisms_influence
+    RENAME TO t_data_climate_mechanisms_influence;
+ALTER TABLE user_files
+    RENAME TO t_data_files;
+ALTER TABLE user_financial_details
+    RENAME TO t_data_financials;
+ALTER TABLE user_data_set
+    RENAME TO t_data_versions;
+ALTER TABLE users
+    RENAME TO t_users;
+ALTER TABLE authorities
+    RENAME TO t_users_authentication;
+ALTER TABLE companies
+    RENAME TO t_companies;
+ALTER TABLE industry_subsector
+    RENAME TO t_ref_industry_subsector;

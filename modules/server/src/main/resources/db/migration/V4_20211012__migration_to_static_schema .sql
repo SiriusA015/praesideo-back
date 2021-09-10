@@ -1,0 +1,42 @@
+ALTER TABLE t_ref_auditing_validation
+    SET SCHEMA static;
+ALTER TABLE t_ref_emissions_inventory_method
+    SET SCHEMA static;
+ALTER TABLE t_ref_industry_sector
+    SET SCHEMA static;
+ALTER TABLE t_ref_years
+    SET SCHEMA static;
+ALTER TABLE t_ref_carbon_credit_category
+    SET SCHEMA static;
+ALTER TABLE t_ref_carbon_price_coverage
+    SET SCHEMA static;
+ALTER TABLE t_ref_carbon_price_coverage_type
+    SET SCHEMA static;
+ALTER TABLE t_ref_customer_type
+    SET SCHEMA static;
+ALTER TABLE t_ref_base_currency
+    SET SCHEMA static;
+ALTER TABLE t_ref_stock_exchange_zone
+    SET SCHEMA static;
+ALTER TABLE t_ref_purchase_credit_categories
+    SET SCHEMA static;
+ALTER TABLE t_ref_purchase_credit_category_type
+    SET SCHEMA static;
+ALTER TABLE t_ref_home_stock_exchange
+    SET SCHEMA static;
+ALTER TABLE t_ref_carbon_compensation_type
+    SET SCHEMA static;
+ALTER TABLE t_ref_product_selection
+    SET SCHEMA static;
+ALTER TABLE t_ref_emissions_reduction_target_scope
+    SET SCHEMA static;
+ALTER TABLE t_ref_operational_boundary_scope
+    SET SCHEMA static;
+ALTER TABLE t_ref_operational_boundary
+    SET SCHEMA static;
+ALTER TABLE t_ref_organisational_boundary
+    SET SCHEMA static;
+ALTER TABLE t_ref_organisational_boundary_criteria
+    SET SCHEMA static;
+ALTER TABLE t_ref_industry_subsector
+    SET SCHEMA static;

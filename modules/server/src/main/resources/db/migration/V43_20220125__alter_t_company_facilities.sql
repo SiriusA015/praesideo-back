@@ -1,0 +1,1 @@
+alter table public.t_company_facilities ADD COLUMN IF NOT EXISTS facility_state VARCHAR(200);

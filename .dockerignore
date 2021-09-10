@@ -1,0 +1,5 @@
+*
+!config.yaml
+!temperature.py
+!bootstrap.sh
+!modules/server/target/ROOT.war

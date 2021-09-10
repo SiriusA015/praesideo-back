@@ -1,0 +1,1 @@
+package earth.praesideo.database.entities.common;import lombok.Data;import javax.persistence.*;@Entity@Table(name = "t_ref_years", schema = "static")@Datapublic class YearRepresentationEntity {    @Id    @GeneratedValue(strategy = GenerationType.IDENTITY)    private Integer yearRepresentationId;    private Integer calendarYear;    private String financialYear;}
